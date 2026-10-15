@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS interno com classe e id</title>
+    <!-- CSS interno dentro do head-->
+     <style>
+        *{
+            background-color:aquamarine;
+            margin: 0;
+            padding: 0;
+        }
+        #paragrafo{
+            background-color: red;
+            font-size: 23px;
+            color: white;
+        }
+        #informacoes{
+            background-color: blue;
+            font-size: 30px;
+            color: white;
+        }
+        .titulo{
+            background-color: green;
+            text-align: right;
+            font-weight: bold;
+        }
+
+     </style>
+</head>
+<body>
+    <p id="paragrafo">CSS aplicado no id</p>
+    <p id = "informacoes">informações complementares</p>
+
+    <h3 class ="titulo">CSS aplicado na classe</h3>
+    <p class="titulo">informações com classe</p>
+    <table border ="1" >
+        <thead>
+            <tr>
+                <th>nome</th>
+                <th>idade</th> 
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class ="titulo">Samuel</td>
+                <td>23</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div>
+        <a href=>"primeiro link"</a>
+        <p> qualquer coisa</p>
+    </div>
+</body>
+</html>
